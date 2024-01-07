@@ -1,6 +1,7 @@
 :root {
   --bg-body-: rgb(252, 244, 236);
   --color-text-: rgb(112, 112, 112);
+  --bg-header-: rgb(186, 174, 161);
   --color-header-: rgb(255, 255, 255);
 }
 body {
@@ -14,4 +15,13 @@ body {
 @font-face {
   src: url("../font/iranyekan\ -\ Copy.woff2");
   font-family: iran;
+}
+header {
+  background-color: var(--bg-header-);
+  color: var(--color-header-);
+}
+.content-header{
+    margin: 0;
+    padding: 2rem 5rem;
+    font-size: 2.5rem;
 }
