@@ -3,6 +3,7 @@
   --color-text-: rgb(112, 112, 112);
   --bg-header-: rgb(186, 174, 161);
   --color-header-: rgb(255, 255, 255);
+  --color-border-: rgb(179, 175, 171);
 }
 body {
   background-color: var(--bg-body-);
@@ -27,10 +28,64 @@ header {
 }
 .subheader {
   margin: 0;
-  padding: 3rem 5rem;
+  padding: 5rem 5rem;
 }
 .content-subheader {
-    color: var(--color-text-);
-    margin: 0;
-    font-size: 2.5rem;
+  color: var(--color-text-);
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 900;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 5rem;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 5rem 0;
+  border-bottom: 1px solid var(--color-border-);
+}
+#primary {
+  margin-top: 0;
+  padding-top: 0;
+}
+#card__img {
+  height: 300px;
+}
+figure {
+  width: 50%;
+  margin: 0;
+  padding-left: 3rem;
+}
+figure > img {
+  width: 100%;
+}
+figcaption {
+  width: 50%;
+  color: var(--color-text-);
+}
+figcaption > h1 {
+  font-size: 1.5rem;
+}
+figcaption > a {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  color: var(--color-text-);
+  border: 1px solid var(--color-border-);
+  border-radius: 0.3rem;
+  font-weight: 900;
+  transition: 0.5s;
+  outline: none;
+}
+figcaption > a:hover {
+  transition: 0.5s;
+  background-color: var(--color-text-);
+  color: var(--bg-body-);
 }
