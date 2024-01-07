@@ -1,0 +1,17 @@
+:root {
+  --bg-body-: rgb(252, 244, 236);
+  --color-text-: rgb(112, 112, 112);
+  --color-header-: rgb(255, 255, 255);
+}
+body {
+  background-color: var(--bg-body-);
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  font-family: iran;
+}
+@font-face {
+  src: url("../font/iranyekan\ -\ Copy.woff2");
+  font-family: iran;
+}
