@@ -89,3 +89,8 @@ figcaption > a:hover {
   background-color: var(--color-text-);
   color: var(--bg-body-);
 }
+.topfooter{
+  padding: 3rem 5rem;
+  color: var(--color-text-);
+  font-size: 2rem;
+}
